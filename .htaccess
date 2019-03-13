@@ -1,6 +1,1 @@
 ErrorDocument 404 https://griggril000.github.io/rileys-bootstrap-blog/404.html
-AuthUserFile .htpasswd
-AuthGroupFile /dev/null
-AuthName "Please Enter Password"
-AuthType Basic
-Require valid-user
