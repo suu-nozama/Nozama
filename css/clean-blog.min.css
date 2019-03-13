@@ -53,12 +53,14 @@
 											  transparent)
 }
 
+/* hides mobile menu on bigger screens like desktops */
 @media only screen and (min-width: 768px) {
     h2, h3, p.post-meta, hr {
         display: none;
     }
 }
 
+/* hides top menu on smaller screens like phones */
 @media only screen and (max-width: 1170px) {
     div.navbar-header.page-scroll {
         display: none;
