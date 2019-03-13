@@ -5,4 +5,4 @@ document.getElementById("email").innerHTML =
 "<p>Email Us:</p>" + " <a target='_blank' href='mailto:griggriley@gmail.com'>Riley Grigg</a>";
 
 document.getElementById("phone").innerHTML =
-"<p>Text/Call us:</p>" + " <a href='sms:8013190923'>Text Riley Grigg</a>" + " <a href='tel:8013190923'>Call Riley Grigg</a>";
+"<p>Text/Call us:</p>" + " <a href='sms:8013190923'>Text Riley Grigg</a>" + "<br>" + " <a href='tel:8013190923'>Call Riley Grigg</a>";
