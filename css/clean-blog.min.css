@@ -53,14 +53,17 @@
 											  transparent)
 }
 
-/* hides mobile menu on bigger screens like desktops */
+/* hides mobile menu on bigger screens like desktops and hides texting & calling options*/
 @media only screen and (min-width: 768px) {
     h2.post-title, h3.post-subtitle, p.post-meta, hr {
         display: none;
     }
+    footer#phone {
+        display: none;
+    }
 }
 
-/* hides top menu on smaller screens like phones */
+/* hides top menu on smaller screens like phones and shows texting & calling options */
 @media only screen and (max-width: 1170px) {
     div.navbar-header.page-scroll {
         display: none;
