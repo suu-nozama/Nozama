@@ -64,7 +64,7 @@
       function mousehandler(e){
         var myevent = (isNS) ? e : event;
         var eventbutton = (isNS) ? myevent.which : myevent.button;
-        if((eventbutton==1)||(eventbutton==2)||(eventbutton==3)) return false;
+        if((eventbutton==2)||(eventbutton==3)) return false;
   }
       document.oncontextmenu = mischandler;
       document.onmousedown = mousehandler;
@@ -101,6 +101,12 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="./" title="Go Home (ALT-H)" accesskey="h">Home</a>
+                    </li>
+                    <li>
+                        <a href="1" title="New Page 1 (ALT-1)" accesskey="1">New Page 1</a>
+                    </li>
+                    <li>
+                        <a href="2" title="New Page 2 (ALT-2)" accesskey="2">New Page 2</a>
                     </li>
                     <li>
                         <a href="contact-us" title="Contact Us (ALT-C)" accesskey="c">Contact Us</a>
