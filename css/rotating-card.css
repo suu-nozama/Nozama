@@ -171,9 +171,11 @@ body {
     margin: 0 7px;
 }
 
+/* start of icon coloring */
 .fa-facebook-square {
-    color: blue;
+    color: #3B5998;
 }
+/* end of icon coloring */
 
 .card .footer .btn-simple{
     margin-top: -6px;
