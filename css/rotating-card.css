@@ -170,6 +170,11 @@ body {
 .card .footer .social-links a{
     margin: 0 7px;
 }
+
+.fa-facebook-square {
+    color: blue;
+}
+
 .card .footer .btn-simple{
     margin-top: -6px;
 }
