@@ -195,6 +195,10 @@ body {
     color: #3B5998;
 }
 
+.fa-twitter-square {
+   color: #00ACEE; 
+}
+
 /* end of icon coloring */
 
 .card .footer .btn-simple {
