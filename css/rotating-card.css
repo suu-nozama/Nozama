@@ -173,6 +173,10 @@ body {
     margin-bottom: 20px;
 }
 
+.card .profession #SUU {
+    color: red;
+}
+
 .card .footer {
     border-top: 1px solid #EEEEEE;
     color: #999999;
