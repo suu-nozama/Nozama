@@ -100,6 +100,9 @@ hr.small {
     .navbar-custom .nav li ul.dropdown-menu a:focus, .navbar-custom .nav li ul.dropdown-menu a:hover {
         color: #437921
     }
+    #phone, #sms {
+        display: block;
+    }
 }
 
 @media only screen and (min-width:1170px) {
@@ -142,6 +145,9 @@ hr.small {
         -ms-transform: translate3d(0, 100%, 0);
         -o-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0)
+    }
+    #phone, #sms {
+        display: none;
     }
 }
 
