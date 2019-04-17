@@ -2,10 +2,10 @@ document.getElementById("foot01").innerHTML =
 "<p>March 2019 - " + new Date().getFullYear() + " Riley Grigg, others... </p> ";
 
 document.getElementById("email").innerHTML =
-"<p>Email Us:</p>" + " <a target='_blank' href='mailto:griggriley@gmail.com'>Riley Grigg</a>";
+"<p>Email Us:</p>" + " <a target='_blank' href='mailto:griggriley@gmail.com'>Riley Grigg</a>" + "<br>" + " <a target='_blank' href='mailto:joe@joe.joe'>Joe</a>";
 
 document.getElementById("phone").innerHTML =
-"<p>Call us:</p>" + " <a href='tel:8013190923'>Call Riley Grigg</a>";
+"<p>Call us:</p>" + " <a href='tel:8013190923'>Riley Grigg</a>" + "<br>" + " <a href='tel:5555555555'>Joe</a>";
 
 document.getElementById("sms").innerHTML =
-"<p>Text us:</p>" + " <a href='sms:8013190923'>Text Riley Grigg</a>";
+"<p>Text us:</p>" + " <a href='sms:8013190923'>Riley Grigg</a>" + "<br>" + " <a href='sms:5555555555'>Joe</a>";
