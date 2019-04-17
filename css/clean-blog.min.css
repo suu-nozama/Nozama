@@ -102,6 +102,7 @@ hr.small {
     }
     #phone, #sms {
         display: block;
+        padding: 0px;
     }
 }
 
