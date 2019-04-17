@@ -75,6 +75,10 @@ hr.small {
     letter-spacing: 1px
 }
 
+#email {
+    display: inline-grid;
+}
+
 @media only screen and (min-width:768px) {
     .navbar-custom {
         background: 0 0;
@@ -101,7 +105,7 @@ hr.small {
         color: #437921
     }
     #phone, #sms {
-        display: block;
+        display: inline-grid;
         padding: 0px;
     }
 }
@@ -289,10 +293,6 @@ hr.small {
     border-bottom-left-radius: 5px
 }
 
-footer {
-    padding: 50px 0 65px
-}
-
 footer .list-inline {
     margin: 0;
     padding: 0
@@ -474,14 +474,6 @@ img::-moz-selection {
     border-radius: 10px;
     background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.5) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 75%, transparent 75%, transparent)
 }
-
-/* hides/shows/styles things on bigger screens like desktops */
-
-@media only screen and (min-width: 768px) {}
-
-/* hides/shows/styles things on smaller screens like phones */
-
-@media only screen and (max-width: 1170px) {}
 
 a, h1, span.subheading {
     color: black;
