@@ -75,7 +75,7 @@ hr.small {
     letter-spacing: 1px
 }
 
-#email {
+#portfolio {
     display: inline-grid;
 }
 
@@ -103,10 +103,6 @@ hr.small {
     }
     .navbar-custom .nav li ul.dropdown-menu a:focus, .navbar-custom .nav li ul.dropdown-menu a:hover {
         color: #437921
-    }
-    #phone, #sms {
-        display: inline-grid;
-        padding: 0px;
     }
 }
 
