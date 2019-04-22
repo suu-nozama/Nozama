@@ -177,6 +177,10 @@ body {
     color: red;
 }
 
+#rich {
+    color: green;
+}
+
 .card .footer {
     border-top: 1px solid #EEEEEE;
     color: #999999;
