@@ -1,5 +1,5 @@
 document.getElementById("foot01").innerHTML =
-"<p>March 2019 - " + new Date().getFullYear() + " Riley Grigg, others... </p> ";
+"<p>" + new Date().getFullYear() + " Riley Grigg, Gideon Roberts, Kara Bailey, others... </p> ";
 
 document.getElementById("email").innerHTML =
 "<p>Email Us:</p>" + " <a target='_blank' href='mailto:griggriley@gmail.com'>Riley Grigg</a>" + "<br>" + " <a target='_blank' href='mailto:joe@joe.joe'>Joe</a>";
