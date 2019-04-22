@@ -506,9 +506,8 @@ hr.small {
 		width: 200px;
 		padding: 10px;
 	}
-    
-    th, td
-{
-	padding: 10px;	
 }
+    
+    th, td {
+	padding: 10px;	
 }
