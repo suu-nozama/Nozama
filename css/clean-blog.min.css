@@ -494,10 +494,9 @@ hr.small {
 	animation-timing-function: linear; 
 }
 
-//contact page form CSS
-#form {
-	color: white;
-	background-color: #437921;
+//helps hide secret page on the homepage
+#hidlink {
+	cursor: default;
 }
 
 @keyframes tableAnimation {  
