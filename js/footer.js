@@ -1,6 +1,4 @@
-var txt = "Hello World!";
-
-document.getElementById("foot01").innerHTML =	var txt = "Hello World!";
+document.getElementById("foot01").innerHTML =
 "<p>" + new Date().getFullYear() + " Riley Grigg, Gideon Roberts, Kara Bayn</p> ";
 
 document.getElementById("portfolio").innerHTML =
