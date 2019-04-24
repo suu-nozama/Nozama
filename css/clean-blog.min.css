@@ -494,6 +494,11 @@ hr.small {
 	animation-timing-function: linear; 
 }
 
+//contact page form CSS
+#form {
+	background-color: #437921;
+}
+
 @keyframes tableAnimation {  
 	
 	100% {
